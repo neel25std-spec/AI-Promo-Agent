@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# --- Playwright artifacts ---
+playwright-report/
+test-results/
+linkedin_state.json
+linkedin_error.png
+twitter_error.png
+
+# --- Node / frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+
+# --- Editor / OS ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
